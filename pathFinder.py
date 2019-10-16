@@ -1,3 +1,12 @@
+#################################### Path Finder ####################################
+# Autora: Fernanda Amaral Melo														#
+# Contato: fernanda.amaral.melo@gmail.com											#
+#																					#
+# Script usado para detecção do melhor trajeto para uma sonda em um terreno			#
+# irregular através do processamento de um mapa de altitude							#
+#																					#
+#####################################################################################
+
 from matplotlib import pyplot as plt
 import numpy as np
 import cv2
@@ -137,7 +146,7 @@ Mrgb_trajectory = draw_trajectory(Mrgb, trajectory)
 
 # Save
 
-cv2.imwrite(fileDir + '/Mars_final.bmp',Mrgb_trajectory);
+cv2.imwrite(fileDir + '/images/Mars_final.bmp',Mrgb_trajectory);
 
 # Plots
 
@@ -150,6 +159,6 @@ cv2.imwrite(fileDir + '/Mars_final.bmp',Mrgb_trajectory);
 # img_plot('Equalized Histogram', equalized_histogram, GRAPH)
 # img_plot('Cumulative Probability after equalization', cumulative_prob, GRAPH)
 
-img_plot('Trajectory', Mrgb_trajectory, IMAGE)
+img_plot('/images/Trajectory', Mrgb_trajectory, IMAGE)
 
 plt.show()
