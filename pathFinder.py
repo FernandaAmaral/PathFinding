@@ -1,10 +1,10 @@
 #################################### Path Finder ####################################
-# Autora: Fernanda Amaral Melo														#
-# Contato: fernanda.amaral.melo@gmail.com											#
-#																					#
-# Script usado para detecção do melhor trajeto para uma sonda em um terreno			#
-# irregular através do processamento de um mapa de altitude							#
-#																					#
+# Autora: Fernanda Amaral Melo													
+# Contato: fernanda.amaral.melo@gmail.com										
+#																				
+# Script usado para detecção do melhor trajeto para uma sonda em um terreno		
+# irregular através do processamento de um mapa de altitude						
+#																				
 #####################################################################################
 
 from matplotlib import pyplot as plt
